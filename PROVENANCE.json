@@ -1,0 +1,343 @@
+{
+  "number": 19,
+  "title": "Technical Knowledge Base Matcher",
+  "slug": "technical-knowledge-base-matcher",
+  "start": "2025-11-22",
+  "end": "2025-12-10",
+  "repo": "tlatkowski/multihead-siamese-nets",
+  "branch": "master",
+  "license": "MIT",
+  "note": "Siamese attention semantic-similarity models; a knowledge-base retrieval wrapper is additional work.",
+  "sha": "6bccdb8c3fe61c0d53c8fe8dd19f0801089dde79",
+  "archive_sha256": "b8c268c614be1cc6bb844c798d485946ef315a7782e93f169019c3bd60b15360",
+  "imported_at": "2026-10-28T21:31:52.982244+00:00",
+  "history": "Reconstructed import history; dates are not dates of original development.",
+  "upstream_files": {
+    "upstream/.gitattributes": {
+      "sha256": "74d34e3ebb73eea20dc0af35411152717765dabf41b151dfe249daf6ce6bd84c",
+      "mode": "100644",
+      "bytes": 93
+    },
+    "upstream/.github/FUNDING.yml": {
+      "sha256": "4e9757650acc168c531cf011e4b36c1d98a60f8e00c1005e8cae2a55686fbcbd",
+      "mode": "100644",
+      "bytes": 223
+    },
+    "upstream/.gitignore": {
+      "sha256": "5a249d80f48e2e3856bbcc3349215533d5be90d12e1c196b5952dd2005e475e4",
+      "mode": "100644",
+      "bytes": 1192
+    },
+    "upstream/.travis.yml": {
+      "sha256": "fe95d68adb8ef875cc0b97fd8b31da09a716d30392991023756d7c0144f00782",
+      "mode": "100644",
+      "bytes": 115
+    },
+    "upstream/LICENSE": {
+      "sha256": "c8bdbbb2e19fc25ac4e8559506721ca91772a899ab80d20801f709725e3f664d",
+      "mode": "100644",
+      "bytes": 1073
+    },
+    "upstream/README.md": {
+      "sha256": "d60ebfe53da7af6a223ca3aa32d326f560abdcd050755ea4fc0a8acc660ebb0f",
+      "mode": "100644",
+      "bytes": 10929
+    },
+    "upstream/bin/prepare_data.sh": {
+      "sha256": "dc7b3540be5c25c00c7ee590e5e44fa86b316ab9c2be758ef10b1953b768d48b",
+      "mode": "100755",
+      "bytes": 1633
+    },
+    "upstream/colab/multihead_siamese_nets.ipynb": {
+      "sha256": "c578be3eb82f6cd827d9bd8cdee52a62f489cebd57c72f18aafd900dd6eac2be",
+      "mode": "100644",
+      "bytes": 224445
+    },
+    "upstream/config/main.ini": {
+      "sha256": "e050a2053ff613d03d57735f091cebc6f48666167db48ed40a680883e68157f6",
+      "mode": "100644",
+      "bytes": 272
+    },
+    "upstream/config/model/cnn.ini": {
+      "sha256": "6f2f7cc15a9b525036239ebe7f8a8009f3628427fcc9e5f79437e5237216a78e",
+      "mode": "100644",
+      "bytes": 72
+    },
+    "upstream/config/model/multihead.ini": {
+      "sha256": "d3de0799d6ea7d3bdd9163c380bfbb677a7462ad4ebd91d54eaa78118753baef",
+      "mode": "100644",
+      "bytes": 77
+    },
+    "upstream/config/model/rnn.ini": {
+      "sha256": "9f3ab4426b6fdaff7df15ed786064f89f730de14d9953f6f7ca18565d6a94685",
+      "mode": "100644",
+      "bytes": 63
+    },
+    "upstream/data/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mode": "100644",
+      "bytes": 0
+    },
+    "upstream/data/anli.py": {
+      "sha256": "c88f03d72d8d355e0e739de4a90b7285b3c1e11038126242c6731f719109a1c6",
+      "mode": "100644",
+      "bytes": 2267
+    },
+    "upstream/data/dataset.py": {
+      "sha256": "95bf028df901bf808fd4d6926ab86f4a0eaf413bcb87daf1afd8c39e5be049eb",
+      "mode": "100644",
+      "bytes": 3114
+    },
+    "upstream/data/dataset_type.py": {
+      "sha256": "c287d758b22117362c0b284c255661dece36e1a5ff8ce02281dfd504a7d4e879",
+      "mode": "100644",
+      "bytes": 366
+    },
+    "upstream/data/qqp.py": {
+      "sha256": "1458d60d174c4c314b9db1f88239409f9f4d90133880226d5c9586c2edc44dbf",
+      "mode": "100644",
+      "bytes": 1734
+    },
+    "upstream/data/snli.py": {
+      "sha256": "c34fcfb47b552d990298a19c25109f4b5348040b19eff4b4e5464bb81e19fa60",
+      "mode": "100644",
+      "bytes": 2061
+    },
+    "upstream/gui_demo.py": {
+      "sha256": "3dca5144beda45a9e557b19db89c6f8aa403518490a550e04c0898498968cdce",
+      "mode": "100644",
+      "bytes": 6222
+    },
+    "upstream/layers/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mode": "100644",
+      "bytes": 0
+    },
+    "upstream/layers/attention.py": {
+      "sha256": "f3ece95a20deac17ca782951582c392250b0ac4654d221821a0c8e471b25e909",
+      "mode": "100644",
+      "bytes": 2467
+    },
+    "upstream/layers/basics.py": {
+      "sha256": "474c132e41e751e79c5532f41226b4a064e3e37d4f302af25419aea54aa1a376",
+      "mode": "100644",
+      "bytes": 1472
+    },
+    "upstream/layers/convolution.py": {
+      "sha256": "932c697cfa67414e5d306c92a1bb796dc2805893355555da3b99b2042cb35574",
+      "mode": "100644",
+      "bytes": 1858
+    },
+    "upstream/layers/losses.py": {
+      "sha256": "672f704bee99c86c3aa197f221b0ed50af3529c580f712a6cd596f86800aadc3",
+      "mode": "100644",
+      "bytes": 1867
+    },
+    "upstream/layers/recurrent.py": {
+      "sha256": "f2ddddddf7446ad7b779404e9910de2a5fe18d2aaa97f7091f8a44ffae6f8249",
+      "mode": "100644",
+      "bytes": 1202
+    },
+    "upstream/layers/similarity.py": {
+      "sha256": "0f99f70c9ea9324fab283ec5848d0c98edbb54a85e4cd706134b7fbe60b3f536",
+      "mode": "100644",
+      "bytes": 1359
+    },
+    "upstream/models/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mode": "100644",
+      "bytes": 0
+    },
+    "upstream/models/base_model.py": {
+      "sha256": "0893bff36a9b79027e8622faf36b40a42080b619bb0efb9f383abf1b86cb3e6d",
+      "mode": "100644",
+      "bytes": 2245
+    },
+    "upstream/models/cnn.py": {
+      "sha256": "413f1f65001e03cf40a85b7ffec0ced58e014ddb3c87cdb34df4c677fe05bd70",
+      "mode": "100644",
+      "bytes": 1402
+    },
+    "upstream/models/model_type.py": {
+      "sha256": "e9d46fc79ba1455d4519b27c07a4090832f510736e4e59918ab4ddc86815ce0f",
+      "mode": "100644",
+      "bytes": 398
+    },
+    "upstream/models/multihead_attention.py": {
+      "sha256": "2604aec444e18a11ddc8742c3a8a75be0cb8adbf2e5dd94853c15c2ed61ca2ff",
+      "mode": "100644",
+      "bytes": 1674
+    },
+    "upstream/models/rnn.py": {
+      "sha256": "0407b9483d7a9810df86cae02e487b1628073eb172063f605bc82d49e7e7bcb1",
+      "mode": "100644",
+      "bytes": 1324
+    },
+    "upstream/pics/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mode": "100644",
+      "bytes": 0
+    },
+    "upstream/pics/attention1.png": {
+      "sha256": "63cc1bcae222aa2989a0a6e566a5ade92f6a374048f6a4c677eaef03d3afd5cf",
+      "mode": "100644",
+      "bytes": 31815
+    },
+    "upstream/pics/attention2.png": {
+      "sha256": "62e25fbbf8d201fc89496bdf4890aa7fe1168cce44152a2b354e08bfe5fc577e",
+      "mode": "100644",
+      "bytes": 33296
+    },
+    "upstream/pics/negative_sample.png": {
+      "sha256": "da66f7b8425db4c827fa12040c03c97087ba103c1382de303000a0d7f578f896",
+      "mode": "100644",
+      "bytes": 21748
+    },
+    "upstream/pics/positive_sample.png": {
+      "sha256": "c4208b48cbfafdc3f8159cbb7a900c740fabf44f7bacb5d16bd3e8b7b923ba6f",
+      "mode": "100644",
+      "bytes": 22290
+    },
+    "upstream/pics/qqp_train_curves.png": {
+      "sha256": "464448cccf9b93cf5a304e5adbfcecc17f40d9b3f0147b03168113f61c312592",
+      "mode": "100644",
+      "bytes": 335848
+    },
+    "upstream/pics/results.png": {
+      "sha256": "a319c0fef22c385b9ead7fb7af955e5347fc315ef459e2859622de50a90c9d15",
+      "mode": "100644",
+      "bytes": 228470
+    },
+    "upstream/pics/snli_train_curves.png": {
+      "sha256": "12a2737b679b715a41880b637db9ffc4f5e407637a6ba6a820a6eda6bf317342",
+      "mode": "100644",
+      "bytes": 381412
+    },
+    "upstream/requirements/requirements-cpu.txt": {
+      "sha256": "cb59d49e13baa9ed70818f758f5dd2c3cf18037a65828437231ca43edd6458e0",
+      "mode": "100644",
+      "bytes": 108
+    },
+    "upstream/requirements/requirements-gpu.txt": {
+      "sha256": "a5c1a334563e31d217748451a97b9f325f5345829a12d5dcd3bd3a07b2b2e5e8",
+      "mode": "100644",
+      "bytes": 112
+    },
+    "upstream/run.py": {
+      "sha256": "c1a3782a369eeef0c9f422a902f14a34062ddfd2ac25e201df028c9063d8325e",
+      "mode": "100644",
+      "bytes": 9271
+    },
+    "upstream/tests/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mode": "100644",
+      "bytes": 0
+    },
+    "upstream/tests/test_attention.py": {
+      "sha256": "fab1d0a3f8301c027217c17219f1bee63c910ff2812b8b34267deca27611a351",
+      "mode": "100644",
+      "bytes": 1585
+    },
+    "upstream/tests/test_distance.py": {
+      "sha256": "fd64fbe073ae716e87915afa6c46628271b7149282550f86fbca421fbcb34450",
+      "mode": "100644",
+      "bytes": 3013
+    },
+    "upstream/tests/test_recurrent.py": {
+      "sha256": "fa3dd3e06d3910b20455b83119aaaf57a854f5f917573f21c9a55d74dc20a2a4",
+      "mode": "100644",
+      "bytes": 1033
+    },
+    "upstream/tests/test_similarity.py": {
+      "sha256": "fc1bd57879939d6e8d275285727a19259a69e70727a9d1daa5565ff505f16cc8",
+      "mode": "100644",
+      "bytes": 938
+    },
+    "upstream/utils/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mode": "100644",
+      "bytes": 0
+    },
+    "upstream/utils/batch_helper.py": {
+      "sha256": "466c747132b7b13dda1e72599dc76638c9bed48bc7abb0bc83391fb5cc8121e1",
+      "mode": "100644",
+      "bytes": 667
+    },
+    "upstream/utils/config_helpers.py": {
+      "sha256": "488337c4a0fd26540674d1ed873513c53a2927f7459483e86f05832b5d5fd7ea",
+      "mode": "100644",
+      "bytes": 816
+    },
+    "upstream/utils/constants.py": {
+      "sha256": "e7ece33940772502cf26f95760a6998db92b0ca3698152596bd4955ec9a5cbcd",
+      "mode": "100644",
+      "bytes": 148
+    },
+    "upstream/utils/data_utils.py": {
+      "sha256": "e2c85ad66d0d6d4bd03fb74d3a2bcd015945d6ecd15fb24c88218596d111f269",
+      "mode": "100644",
+      "bytes": 3236
+    },
+    "upstream/utils/log_saver.py": {
+      "sha256": "035f4b555a62682ca7f496db44c9243f43792f07b84f443abe4cfabdd4051229",
+      "mode": "100644",
+      "bytes": 864
+    },
+    "upstream/utils/model_evaluator.py": {
+      "sha256": "5b3e66e1f79d7f4370badcbd9679c4c03bcfe8360d6290a76ef0444cf6b5633e",
+      "mode": "100644",
+      "bytes": 2205
+    },
+    "upstream/utils/model_saver.py": {
+      "sha256": "fe97f9ff81b481e330521def2673329eb3b3f77f6c9ce2ae84eb746e3604ee33",
+      "mode": "100644",
+      "bytes": 442
+    },
+    "upstream/utils/other_utils.py": {
+      "sha256": "a5d20fb6bec4a39102b35f58eac5338f49834710962c27c01150871a554dbdc7",
+      "mode": "100644",
+      "bytes": 1497
+    },
+    "upstream/utils/visualization.py": {
+      "sha256": "c04703187eafd74989091301efa9376e22e9ae30d82d1640fa218ba370d2b810",
+      "mode": "100644",
+      "bytes": 799
+    }
+  },
+  "excluded_git_metadata": [],
+  "history_repair": {
+    "pattern": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "approved_calendar": true,
+    "seed": 20251028,
+    "previous_main": "d91538db126d360498149a6df1699fec6f370943",
+    "daily_counts": {
+      "2025-11-22": 3,
+      "2025-11-23": 2,
+      "2025-11-24": 3,
+      "2025-11-25": 0,
+      "2025-11-26": 0,
+      "2025-11-27": 0,
+      "2025-11-28": 5,
+      "2025-11-29": 4,
+      "2025-11-30": 1,
+      "2025-12-01": 2,
+      "2025-12-02": 4,
+      "2025-12-03": 2,
+      "2025-12-04": 5,
+      "2025-12-05": 1,
+      "2025-12-06": 1,
+      "2025-12-07": 0,
+      "2025-12-08": 3,
+      "2025-12-09": 0,
+      "2025-12-10": 2
+    },
+    "description": "Reconstructed import timestamps; not original development dates."
+  }
+}

@@ -1,0 +1,309 @@
+[
+  {
+    "timestamp": "2025-11-22T12:45:15+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 1/38",
+    "prefix_bytes": {
+      "upstream/LICENSE": 1073
+    }
+  },
+  {
+    "timestamp": "2025-11-22T19:41:34+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 2/38",
+    "prefix_bytes": {
+      "upstream/.github/FUNDING.yml": 223,
+      "upstream/.travis.yml": 115,
+      "upstream/config/main.ini": 272
+    }
+  },
+  {
+    "timestamp": "2025-11-22T22:23:10+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 3/38",
+    "prefix_bytes": {
+      "upstream/config/model/cnn.ini": 72,
+      "upstream/config/model/multihead.ini": 77,
+      "upstream/config/model/rnn.ini": 63,
+      "upstream/requirements/requirements-cpu.txt": 108
+    }
+  },
+  {
+    "timestamp": "2025-11-23T12:35:40+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 4/38",
+    "prefix_bytes": {
+      "upstream/requirements/requirements-gpu.txt": 112,
+      "upstream/data/__init__.py": 0,
+      "upstream/data/anli.py": 2267
+    }
+  },
+  {
+    "timestamp": "2025-11-23T13:55:44+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 5/38",
+    "prefix_bytes": {
+      "upstream/data/dataset.py": 3114,
+      "upstream/data/dataset_type.py": 366
+    }
+  },
+  {
+    "timestamp": "2025-11-24T13:26:52+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 6/38",
+    "prefix_bytes": {
+      "upstream/data/qqp.py": 1734,
+      "upstream/data/snli.py": 1077
+    }
+  },
+  {
+    "timestamp": "2025-11-24T19:30:09+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 7/38",
+    "prefix_bytes": {
+      "upstream/data/snli.py": 2061,
+      "upstream/utils/__init__.py": 0,
+      "upstream/utils/batch_helper.py": 667,
+      "upstream/utils/config_helpers.py": 816
+    }
+  },
+  {
+    "timestamp": "2025-11-24T21:03:20+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 8/38",
+    "prefix_bytes": {
+      "upstream/utils/constants.py": 148,
+      "upstream/utils/data_utils.py": 3236
+    }
+  },
+  {
+    "timestamp": "2025-11-28T13:00:32+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 9/38",
+    "prefix_bytes": {
+      "upstream/utils/log_saver.py": 864,
+      "upstream/utils/model_evaluator.py": 2205,
+      "upstream/utils/model_saver.py": 442
+    }
+  },
+  {
+    "timestamp": "2025-11-28T19:07:48+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 10/38",
+    "prefix_bytes": {
+      "upstream/utils/other_utils.py": 1497,
+      "upstream/utils/visualization.py": 799,
+      "upstream/.gitattributes": 93
+    }
+  },
+  {
+    "timestamp": "2025-11-28T19:38:47+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 11/38",
+    "prefix_bytes": {
+      "upstream/.gitignore": 1192,
+      "upstream/bin/prepare_data.sh": 1633,
+      "upstream/colab/multihead_siamese_nets.ipynb": 1042
+    }
+  },
+  {
+    "timestamp": "2025-11-28T22:22:45+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 12/38",
+    "prefix_bytes": {
+      "upstream/colab/multihead_siamese_nets.ipynb": 14936
+    }
+  },
+  {
+    "timestamp": "2025-11-28T22:34:19+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 13/38",
+    "prefix_bytes": {
+      "upstream/colab/multihead_siamese_nets.ipynb": 29201
+    }
+  },
+  {
+    "timestamp": "2025-11-29T12:00:21+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 14/38",
+    "prefix_bytes": {
+      "upstream/colab/multihead_siamese_nets.ipynb": 33508
+    }
+  },
+  {
+    "timestamp": "2025-11-29T17:35:28+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 15/38",
+    "prefix_bytes": {
+      "upstream/colab/multihead_siamese_nets.ipynb": 44844
+    }
+  },
+  {
+    "timestamp": "2025-11-29T19:45:03+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 16/38",
+    "prefix_bytes": {
+      "upstream/colab/multihead_siamese_nets.ipynb": 64884
+    }
+  },
+  {
+    "timestamp": "2025-11-29T21:31:08+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 17/38",
+    "prefix_bytes": {
+      "upstream/colab/multihead_siamese_nets.ipynb": 84269
+    }
+  },
+  {
+    "timestamp": "2025-11-30T19:23:10+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 18/38",
+    "prefix_bytes": {
+      "upstream/colab/multihead_siamese_nets.ipynb": 103654
+    }
+  },
+  {
+    "timestamp": "2025-12-01T18:29:22+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 19/38",
+    "prefix_bytes": {
+      "upstream/colab/multihead_siamese_nets.ipynb": 122905
+    }
+  },
+  {
+    "timestamp": "2025-12-01T22:46:54+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 20/38",
+    "prefix_bytes": {
+      "upstream/colab/multihead_siamese_nets.ipynb": 137411
+    }
+  },
+  {
+    "timestamp": "2025-12-02T12:15:47+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 21/38",
+    "prefix_bytes": {
+      "upstream/colab/multihead_siamese_nets.ipynb": 156797
+    }
+  },
+  {
+    "timestamp": "2025-12-02T15:56:28+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 22/38",
+    "prefix_bytes": {
+      "upstream/colab/multihead_siamese_nets.ipynb": 176048
+    }
+  },
+  {
+    "timestamp": "2025-12-02T18:02:12+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 23/38",
+    "prefix_bytes": {
+      "upstream/colab/multihead_siamese_nets.ipynb": 192574
+    }
+  },
+  {
+    "timestamp": "2025-12-02T21:38:13+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 24/38",
+    "prefix_bytes": {
+      "upstream/colab/multihead_siamese_nets.ipynb": 212760
+    }
+  },
+  {
+    "timestamp": "2025-12-03T15:59:54+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 25/38",
+    "prefix_bytes": {
+      "upstream/colab/multihead_siamese_nets.ipynb": 224445
+    }
+  },
+  {
+    "timestamp": "2025-12-03T17:26:36+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 26/38",
+    "prefix_bytes": {
+      "upstream/gui_demo.py": 6222
+    }
+  },
+  {
+    "timestamp": "2025-12-04T12:16:46+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 27/38",
+    "prefix_bytes": {
+      "upstream/layers/__init__.py": 0,
+      "upstream/layers/attention.py": 2467,
+      "upstream/layers/basics.py": 818
+    }
+  },
+  {
+    "timestamp": "2025-12-04T15:05:29+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 28/38",
+    "prefix_bytes": {
+      "upstream/layers/basics.py": 1472,
+      "upstream/layers/convolution.py": 1858,
+      "upstream/layers/losses.py": 1101
+    }
+  },
+  {
+    "timestamp": "2025-12-04T15:12:39+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 29/38",
+    "prefix_bytes": {
+      "upstream/layers/losses.py": 1867,
+      "upstream/layers/recurrent.py": 1202
+    }
+  },
+  {
+    "timestamp": "2025-12-04T15:15:36+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 30/38",
+    "prefix_bytes": {
+      "upstream/layers/similarity.py": 1359,
+      "upstream/models/__init__.py": 0,
+      "upstream/models/base_model.py": 1616
+    }
+  },
+  {
+    "timestamp": "2025-12-04T18:41:06+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 31/38",
+    "prefix_bytes": {
+      "upstream/models/base_model.py": 2245,
+      "upstream/models/cnn.py": 1402,
+      "upstream/models/model_type.py": 398
+    }
+  },
+  {
+    "timestamp": "2025-12-05T12:11:39+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 32/38",
+    "prefix_bytes": {
+      "upstream/models/multihead_attention.py": 1674,
+      "upstream/models/rnn.py": 1324
+    }
+  },
+  {
+    "timestamp": "2025-12-06T21:30:19+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 33/38",
+    "prefix_bytes": {
+      "upstream/pics/.gitkeep": 0,
+      "upstream/pics/attention1.png": 31815,
+      "upstream/pics/attention2.png": 33296,
+      "upstream/pics/negative_sample.png": 21748
+    }
+  },
+  {
+    "timestamp": "2025-12-08T14:45:35+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 34/38",
+    "prefix_bytes": {
+      "upstream/pics/positive_sample.png": 22290,
+      "upstream/pics/qqp_train_curves.png": 335848,
+      "upstream/pics/results.png": 228470
+    }
+  },
+  {
+    "timestamp": "2025-12-08T15:46:24+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 35/38",
+    "prefix_bytes": {
+      "upstream/pics/snli_train_curves.png": 381412,
+      "upstream/README.md": 10929,
+      "upstream/run.py": 2524
+    }
+  },
+  {
+    "timestamp": "2025-12-08T21:21:07+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 36/38",
+    "prefix_bytes": {
+      "upstream/run.py": 8194
+    }
+  },
+  {
+    "timestamp": "2025-12-10T19:02:38+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 37/38",
+    "prefix_bytes": {
+      "upstream/run.py": 9271,
+      "upstream/tests/__init__.py": 0,
+      "upstream/tests/test_attention.py": 1585,
+      "upstream/tests/test_distance.py": 1331
+    }
+  },
+  {
+    "timestamp": "2025-12-10T22:39:00+00:00",
+    "message": "chore(import): reconstruct tlatkowski/multihead-siamese-nets slice 38/38",
+    "prefix_bytes": {
+      "upstream/tests/test_distance.py": 3013,
+      "upstream/tests/test_recurrent.py": 1033,
+      "upstream/tests/test_similarity.py": 938
+    }
+  }
+]
