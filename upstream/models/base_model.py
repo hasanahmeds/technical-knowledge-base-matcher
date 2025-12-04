@@ -38,3 +38,16 @@ class BaseSiameseNet:
             self.loss = self.loss_function(self.labels, self.predictions)
             self.opt = optimize(self.loss, self.learning_rate)
         
+        with tf.variable_scope('metrics'):
+            self.temp_sim = tf.rint(self.predictions)
+            self.correct_predictions = tf.equal(self.temp_sim, tf.to_float(self.labels))
+            self.accuracy = tf.reduce_mean(tf.to_float(self.correct_predictions))
+        
+        with tf.variable_scope('summary'):
+            tf.summary.scalar("loss", self.loss)
+            tf.summary.scalar("accuracy", self.accuracy)
+            self.summary_op = tf.summary.merge_all()
+    
+    def siamese_layer(self, sequence_len, model_cfg):
+        """Implementation of specific siamese layer"""
+        raise NotImplementedError()
