@@ -38,3 +38,29 @@ def residual(
         reuse=False,
 ):
     with tf.variable_scope('residual', reuse=reuse):
+        res_con = x_in + x_out
+    return res_con
+
+
+def normalization(
+        x,
+        eps=1e-8,
+):  # FIXME
+    with tf.variable_scope('norm'):
+        inputs_shape = x.get_shape()
+        params_shape = inputs_shape[-1:]
+
+        mean, variance = tf.nn.moments(x, [-1], keep_dims=True)
+        beta = tf.Variable(tf.zeros(params_shape))
+        gamma = tf.Variable(tf.ones(params_shape))
+        normalized = (x - mean) / tf.sqrt(variance + eps)
+        outputs = gamma * normalized + beta
+
+    return outputs
+
+
+def optimize(
+        loss,
+        learning_rate=0.001,
+):
+    return tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(loss)
