@@ -38,3 +38,29 @@ def _contrastive_plus(model_energy):
 def _contrastive_minus(model_energy, margin=tf.constant(0.5)):
     mask = tf.to_float(tf.less(tf.to_float(model_energy), margin))
     return mask * tf.square(tf.to_float(model_energy))
+
+
+def cross_entropy(predictions, labels):
+    labels = tf.cast(labels, "float")
+    predictions = tf.cast(predictions, "float")
+    return tf.reduce_mean(
+        -tf.reduce_sum(
+            labels * tf.log(predictions + _EPSILON),
+            axis=1
+        )
+    )
+
+
+def mse(predictions, labels):
+    return tf.losses.mean_squared_error(labels, predictions)
+
+
+def mae(predictions, labels):
+    return tf.reduce_mean(tf.losses.absolute_difference(labels, predictions))
+
+
+def contrastive_lecun(x1, x2, labels, margin=0.2, distance=manhattan_distance):
+    labels = tf.to_float(labels)
+    c_loss = labels * 0.5 * tf.square(distance(x1, x2)) + \
+             (1 - labels) * 0.5 * tf.square(tf.maximum(0.0, margin - distance(x1, x2)))
+    return tf.reduce_sum(c_loss)
