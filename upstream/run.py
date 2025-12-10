@@ -238,3 +238,43 @@ def main():
     
     parser.add_argument(
         'dataset',
+        choices=['QQP', 'SNLI', 'ANLI'],
+        nargs='?',
+        help='dataset to be used',
+    )
+    
+    parser.add_argument(
+        '--experiment_name',
+        required=False,
+        help='the name of run experiment',
+    )
+    
+    parser.add_argument(
+        '--gpu',
+        default='0',
+        help='index of GPU to be used (default: %(default))',
+    )
+    
+    args = parser.parse_args()
+    if 'train' in args.mode:
+        if args.dataset is None:
+            parser.error('Positional argument [dataset] is mandatory')
+    set_visible_gpu(args.gpu)
+    
+    main_config = init_config()
+    model_config = init_config(args.model)
+    
+    mode = args.mode
+    
+    experiment_name = args.experiment_name
+    if experiment_name is None:
+        experiment_name = create_experiment_name(args.model, main_config, model_config)
+    
+    if 'train' in mode:
+        train(main_config, model_config, args.model, experiment_name, args.dataset)
+    else:
+        predict(main_config, model_config, args.model, experiment_name)
+
+
+if __name__ == '__main__':
+    main()
